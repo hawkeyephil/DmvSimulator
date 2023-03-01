@@ -9,8 +9,8 @@ public class DmvSimulator {
         //PRNG object 
         Random prng = new Random(); 
         //Line length (Easier than hardcoding it)
-        int lineLength = 100;
-        //Generate a random int between [0,] and adds one to get [1,100]
+        int lineLength = 200;
+        //Generate a random int between [0,lineLength] and adds one to get [1,lineLength]
         int ticketNumber = prng.nextInt(lineLength) + 1;
         System.out.println("Your number is: " + ticketNumber); 
         System.out.println("Please wait until your number is called.");
