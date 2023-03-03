@@ -27,7 +27,7 @@ public class DmvSimulator {
         }
 
         //Tells the customer that they do not have the correct paperwork 
-        System.out.println("Get out of my face you peseant! You have the wrong paperwork! IDIOT!");
+        System.out.println("Get out of my face you peseant! You have the wrong paperwork! IDIOT! MWAHAHAHA");
     }
 
 }
