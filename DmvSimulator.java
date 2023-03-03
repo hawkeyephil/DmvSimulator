@@ -26,8 +26,15 @@ public class DmvSimulator {
             }
         }
 
-        //Tells the customer that they do not have the correct paperwork 
-        System.out.println("Get out of my face you peseant! You have the wrong paperwork! IDIOT! MWAHAHAHA");
+        //Generates a random number between 1 and a 100
+        int miracle = prng.nextInt(100) + 1; 
+        if(miracle == 1) {
+            System.out.println("You somehow have the right paperwork. IMPOSSIBLE!");
+        }
+        else {
+            //Tells the customer that they do not have the correct paperwork 
+            System.out.println("Get out of my face you peseant! You have the wrong paperwork! IDIOT! MWAHAHAHA");
+        }
     }
 
 }
